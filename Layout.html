@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="maingame.css">
+    <title>Document</title>
+</head>
+<body class="menu">
+    <div class="sign logout">
+        <img src="images/onesign.png" alt="Wooden Sign" style="height: auto; width: 200px;">
+        <div class="text-overlay"><button style="font-size: 29px;">Menu</button></div>
+    </div>
+    <div class="transparent-image timer">
+        <img src="images/woodensign.png" style="height: auto; width: 350px;">
+        <div class="text-overlay-timer" id="countdown-timer">2:00</div>
+    </div>
+    </div>
+    <div class="board">
+        <img src="images/woodenboard.png" style="height: auto; width: 1000px;">
+    </div>
+    <div class="gameboard">
+        <img src="images/woodenboard.png" style="height: auto; width: 700px;">
+    </div>
+                <div class="gameboard-text">Question</div>
+    <div class="smallboard">
+        <img src="images/woodencanvas.png" style="height: auto; width: 320px;">
+        <div class="text-overlay"><button style="font-size: 29px;">A. </button></div>
+    </div>
+    <div class="smallboard2">
+        <img src="images/woodencanvas.png" style="height: auto; width: 320px;">
+        <div class="text-overlay"><button style="font-size: 29px;">B. </button></div>
+    </div>
+    <div class="smallboard3">
+        <img src="images/woodencanvas.png" style="height: auto; width: 320px;">
+        <div class="text-overlay"><button style="font-size: 29px;">C. </button></div>
+    </div>
+    <div class="game-container">
+        <canvas id="canvas" width="830" height="500"></canvas>
+        <div id="game-over-screen">
+            <p id="final-score"></p>
+            <button onclick="resetGame()">Restart</button>
+        </div>
+    </div>
+    <script src="maingame.js"></script>
+</body>
+</html>

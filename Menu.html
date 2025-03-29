@@ -6,67 +6,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="style.css"> 
     <title>Document</title>
 </head>
-<style>
-    body {
-        background-image: url('images/junglebackground.webp');
-        background-size: cover;
-        background-repeat: no-repeat;
-        font-family: "Chewy", serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-    .snake-image {
-        position: absolute;
-        top: 545px;
-        left: 40%;
-    }
-    .transparent-image {
-        position: absolute;
-        top: -70px;
-    }
-    .image1 {
-        left: 5%;
-    }
-    .image2 {
-        left: 35%;
-    }
-    .image3 {
-        left: 65%;
-    }
-    .text-overlay {
-        position: absolute;
-        top: 110px;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        font-size: 39px;
-        font-weight: bold;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        letter-spacing: 2px;
-    }
-</style>
-<body>
+<body class="menu">
     <div class="transparent-image image1">
         <img src="images/woodensign.png">
-        <div class="text-overlay">Endless Mode</div>
+        <div class="text-overlay-menu">Endless Mode</div>
     </div>
     <div class="transparent-image image2">
         <img src="images/woodensign.png">
-        <div class="text-overlay">Challenge Mode</div>
+        <div class="text-overlay-menu">Challenge Mode</div>
     </div>
     <div class="transparent-image image3">
         <img src="images/woodensign.png">
-        <div class="text-overlay">Levels</div>
+        <div class="text-overlay-menu">Levels</div>
     </div>
     <div class="snake-image">
         <img src="images/snake.png" style="height: 400px; width: 400px;">
-    </div>
+</div>
 </body>
 </html>
